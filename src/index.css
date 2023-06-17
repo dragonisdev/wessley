@@ -35,6 +35,7 @@
     animation-fill-mode: forwards;
 }
 
+
 @keyframes fadeInAnimation {
     0% {
         opacity: 0;
@@ -43,6 +44,8 @@
         opacity: 1;
      }
 }
+
+
 
 .wessley {
     color: white;
@@ -101,20 +104,49 @@
 
 
 .arrow {
+  width: 2em;
+  height: 2em;
+  background-color: transparent;
+  z-index: 80;
+  bottom: 30px; /* or 40px for the second button */
+  position: absolute;
+  border-width: 0 0.25em 0.25em 0;
+  border-style: solid;
+  border-color: antiquewhite;
+  animation: scrolldown 1.2s ease-in-out infinite 0.15s; /* or without delay for the second button */
+}
+
+  .arrow2 {
 
   
     width: 2em;
-    height: 2em;
-    background-color: transparent;
-    z-index: 80;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    position: absolute;
-    border-width: 0 0.25em 0.25em 0;
-    border-style: solid;
-    border-color: antiquewhite;
-    animation: scrolldown 1.2s ease-in-out infinite;
+  height: 2em;
+  background-color: transparent;
+  z-index: 80;
+  bottom: 50px; /* or 40px for the second button */
+  position: absolute;
+ 
+  border-width: 0 0.25em 0.25em 0;
+  border-style: solid;
+  border-color: antiquewhite;
+  animation: scrolldown 1.2s ease-in-out infinite  /* or without delay for the second button */
+  }
+
+  @keyframes scrolldown {
+    0%{
+        
+          transform: translateY(20%) rotate(45deg);
+          opacity: 0.7;
+      }
+      50%{
+          transform: translateY(0%) rotate(45deg);
+          opacity: 0.2;
+      }
+      100%{
+          transform: translateY(20%) rotate(45deg);
+          opacity: 0.7;
+      }
+      
   }
 
 

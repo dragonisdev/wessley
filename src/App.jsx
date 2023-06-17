@@ -32,7 +32,8 @@ function App() {
                     <a className="icon" href="https://www.tiktok.com/@wessleymusic/" target="blank"><img src={tiktok}/></a>
                     <a className="icon" href="https://twitter.com/heywessley" target="blank"><img src={soundcloud}/></a>
                 </div>
-                
+                <a href="#middle" className="arrow" > </a>
+                <a href="#middle" className="arrow2" > </a>
             </div>
             
             
@@ -41,7 +42,7 @@ function App() {
 
             
             
-            <div>
+            <div id="middle">
                 Hello
             </div>
         </div>
