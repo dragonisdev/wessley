@@ -1,0 +1,144 @@
+
+.body {
+  margin: 0;
+	padding: 0;
+  border: 0
+}
+.root {
+  
+  margin: 0;
+	padding: 0;
+  border: 0
+}
+
+
+
+
+.bg-main {
+	background-image: url('./assets/wessley_banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+.wessley {
+    color: white;
+    font-family: 'Monsieur La Doulaise', cursive;
+    letter-spacing: 2rem;
+    font-size: 60px;
+    
+    opacity: 70%;
+    padding-top: 52vh;
+}
+
+.regular-text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5rem;
+    
+    opacity: 60%;
+    font-size: 24px;
+}
+
+.line {
+   
+    opacity: 60%;
+    max-width: 360px;
+    width: 100%;
+    
+}
+
+.icons-menu {
+    padding-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    opacity: 60%;
+    
+
+}
+
+.icons-menu a {
+    
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.icons-menu a:hover {
+    opacity: 200%;
+    transform: scale(105%) translateY(-5px) rotate(-5deg);
+  }
+
+
+.icon {
+    padding-left: 2vh;
+    padding-right: 2vh;
+    
+}
+
+
+.arrow {
+
+  
+    width: 2em;
+    height: 2em;
+    background-color: transparent;
+    z-index: 80;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    border-width: 0 0.25em 0.25em 0;
+    border-style: solid;
+    border-color: antiquewhite;
+    animation: scrolldown 1.2s ease-in-out infinite;
+  }
+
+
+  .drop-in {
+    animation: drop-in 1s ease 200ms backwards;
+   }
+   
+   .drop-in-2 {
+    animation: drop-in 1200ms ease 500ms backwards;
+   }
+   
+   @keyframes drop-in {
+    from {
+     opacity: 0;
+     transform: translateY(-100px);
+    }
+    to {
+     opacity: 70%;
+     transform: translate(0px);
+    }
+   }
+   
+
+
+
+
+
