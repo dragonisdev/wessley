@@ -60,7 +60,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 110vh;
+  height: 120vh;
   z-index: -1;
 
 }
@@ -200,7 +200,7 @@
    }
    
    .releases-section{
-
+     
    }
 
    .release{
@@ -259,8 +259,16 @@
     padding: 2rem;
     opacity: 60%;
   }
- 
   
+  .streaming a {
+    
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+  .streaming a:hover {
+    opacity: 200%;
+    transform: scale(105%) translateY(-5px) rotate(-5deg);
+  }
   
   .footer-content {
     font-size: 14px;
@@ -274,3 +282,14 @@
   .footer-content a:hover {
     text-decoration: underline;
   }
+
+
+  .contact {
+
+  }
+
+  .social {
+
+  }
+
+  

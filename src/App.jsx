@@ -75,16 +75,16 @@ export default function App() {
                   <img className="release" data-aos="fade-right" data-aos-duration="1500" src={group1}/>
                   <div className='streaming'>
                     
-                    <a><img src={apple}/></a>
-                    <a><img src={soundcloud2}/></a>
-                    <a><img src={tidal}/></a>
-                    <a><img src={spotify}/></a>
-                    <a><img src={deezer}/></a>
+                    <a href=''><img src={apple}/></a>
+                    <a href='https://soundcloud.com/heywessley/justadmit-1'><img src={soundcloud2}/></a>
+                    <a href=''><img src={tidal}/></a>
+                    <a href=''><img src={spotify}/></a>
+                    <a href=''><img src={deezer}/></a>
                   </div>
                 </div>
 
                 <div className="footer-content releases-text">
-                <p>Contact me at <a href="mailto:contact@example.com">contact@example.com</a></p>
+                <p className=''>Contact me at <a href="mailto:contact@example.com">wessley@example.com</a></p>
               </div>
             </div>
             
