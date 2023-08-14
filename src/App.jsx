@@ -40,9 +40,9 @@ export default function App() {
       <div className="container">
             <div className="bg-main">
                 <h2 className="wessley drop-in">Wessley</h2>
-                
-                <p className="regular-text drop-in-2">
-                    "just a college kid"
+                  <br/>
+                <p className="regular-text drop-in-2 ">
+                    
                 </p>
 
                 <img className="line" src={line}/>
